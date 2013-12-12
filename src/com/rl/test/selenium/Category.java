@@ -18,18 +18,18 @@ public class Category extends MainDriver{
 		
 		driver.findElement(By.xpath("//form[@id='header:headerForm']/table/tbody/tr[3]/td/table/tbody/tr/td/p/a")).click();
 		driver.findElement(By.xpath("//form[@id='selectCategoryForm']/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/p[2]/a")).click();
-		driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/a/img")).click();
-		driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[4]/td/a/img")).click();
-		driver.findElement(By.xpath("//form[@id='header:headerForm']/table/tbody/tr[3]/td/table/tbody/tr/td/p/a")).click();
+		//driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/a/img")).click();
+		//driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[4]/td/a/img")).click();
+		//driver.findElement(By.xpath("//form[@id='header:headerForm']/table/tbody/tr[3]/td/table/tbody/tr/td/p/a")).click();
 		
 	}
 	
 	public static void categoryThree(){
 		driver.findElement(By.xpath("//form[@id='header:headerForm']/table/tbody/tr[3]/td/table/tbody/tr/td/p/a")).click();
 		driver.findElement(By.xpath("//form[@id='selectCategoryForm']/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/p[3]/a")).click();
-		driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[3]/td[3]/a/img")).click();
-		driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[3]/td/a/img")).click();
-		driver.findElement(By.xpath("//form[@id='header:headerForm']/table/tbody/tr[3]/td/table/tbody/tr/td/p/a")).click();
+		//findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[3]/td[3]/a/img")).click();
+		//driver.findElement(By.xpath("//form[@id='productListCustomerViewForm']/table/tbody/tr[2]/td/table/tbody/tr[3]/td/a/img")).click();
+		//driver.findElement(By.xpath("//form[@id='header:headerForm']/table/tbody/tr[3]/td/table/tbody/tr/td/p/a")).click();
 		
 	}
 	
